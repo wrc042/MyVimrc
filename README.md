@@ -10,7 +10,7 @@ Set for color/theme:
 mkdir .vim
 cd .vim
 git clone https://github.com/flazz/vim-colorschemes.git
-cp vim-colorschemes/colors ./colors
+cp -r vim-colorschemes/colors ./colors
 rm -rf vim-colorschemes
 ```
 
